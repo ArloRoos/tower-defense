@@ -3,6 +3,9 @@ using Microsoft.Xna.Framework;
 
 namespace TowerDefense.Model;
 
+/// <summary>
+/// The base class for all renderable entities.
+/// </summary>
 public abstract class Entity
 {
     public Vector2 Position { get; set; }
@@ -12,12 +15,12 @@ public abstract class Entity
         this.Position = new Vector2(x, y);
     }
 
-    protected Entity(Vector2 initial)
+    protected Entity(Vector2 position)
     {
-        this.Position = initial;
+        this.Position = position;
     }
 
-    public void Move(Vector2 delta)
+    public virtual void Move(Vector2 delta)
     {
         this.Position += delta;   
     }

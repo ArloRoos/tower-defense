@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TowerDefense")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9d95681ea6f0a0903ca03ef69af060026309ae2b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4d83a4aaa5e32d5421091e743513033b1ced92fb")]
 [assembly: System.Reflection.AssemblyProductAttribute("TowerDefense")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TowerDefense")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
